@@ -1,0 +1,15 @@
+Algoritmo calculo_edad
+	Escribir "Ingrese su año de nacimiento"
+	Leer fecha 
+	edad<- calcularEdad(fecha)
+	si edad >18
+		Escribir "Es mayor de edad"
+	SiNo
+		Escribir "Es menor de edad"
+	FinSi
+FinAlgoritmo
+
+Funcion resultado<- calcularEdad (fecha)
+	resultado<-2024-fecha 
+FinFuncion
+
