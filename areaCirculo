@@ -1,0 +1,11 @@
+Algoritmo area_Circulo
+	Escribir "Escriba el radio del circulo:"
+	Leer radio 
+	areaCirculo<- calcularAreaCirculo(radio)
+	Escribir "El area del circulo es:", areaCirculo
+	
+FinAlgoritmo
+
+Funcion resultado<- calcularAreaCirculo (radio)
+	resultado<-PI* radio * radio 
+FinFuncion
